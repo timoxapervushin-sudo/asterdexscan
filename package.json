@@ -1,0 +1,31 @@
+{
+  "name": "asterdex-explorer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "vite build",
+    "start": "node server.mjs",
+    "dev": "node dev.mjs",
+    "wallets:scan": "node scripts/fetch_deposit_wallets.mjs",
+    "wallets:scan:full": "node scripts/fetch_deposit_wallets.mjs --full",
+    "wallets:scan:bsc": "node scripts/fetch_deposit_wallets.mjs --source=bsc",
+    "wallets:scan:eth": "node scripts/fetch_deposit_wallets.mjs --source=eth",
+    "wallets:scan:arb": "node scripts/fetch_deposit_wallets.mjs --source=arb",
+    "wallets:watch": "node scripts/fetch_deposit_wallets.mjs --watch"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "lightweight-charts": "^5.2.0",
+    "lucide-react": "^0.468.0",
+    "nodemailer": "^8.0.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1"
+  }
+}

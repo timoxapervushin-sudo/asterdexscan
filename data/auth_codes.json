@@ -1,0 +1,15 @@
+{
+  "codes": [
+    {
+      "purpose": "register",
+      "email": "timoxapervushin@gmail.com",
+      "codeHash": "7cd978f1d4bb789c9bc578d10b486a15ae4cd3731011ee1ae89b0424a5f03b65",
+      "attempts": 0,
+      "expiresAt": 1778089912159,
+      "createdAt": 1778089312159,
+      "username": "timoxapervushin",
+      "passwordHash": "9d12a217a9f686020f824a98fc5bccb0:3de4aeed3b1ece617f32ca0d6045fd9a06adf9a669c016c5ba415679e221b0d8900611b25f8980c49b628be740afbdd69c14ba9563ce31d6068539916cbeef9e"
+    }
+  ],
+  "oauthStates": []
+}

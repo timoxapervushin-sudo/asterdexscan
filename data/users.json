@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": "dada6515-82bd-41a1-9058-573bed19c399",
+      "email": "ckannes@local",
+      "username": "ckannes",
+      "role": "admin",
+      "passwordHash": "158f968c7513d972099594bc1fd26024:794c6851cee4c0b61f480272fb581f201c691e085dd616492379bca014db33b92981a948ae52041f40c2d8ba96a0a5b0b2ce79049e9fed685ffdd1a47acc2b14",
+      "createdAt": 1778092941131
+    },
+    {
+      "id": "beb8c505-8e8b-4207-81a5-dd3af9ad7631",
+      "email": "bot@local",
+      "username": "bot",
+      "role": "user",
+      "passwordHash": "43df08e5709aa4dc69f4684fce5cbe1d:2fa0f16d9deee203e17b389508cf077c2c5557926c968736df4d506ac4cde3eca54067501e61b4a3249e28102c6e5625407d9ffd8d4789295695331f3b481e25",
+      "createdAt": 1778093126393,
+      "passwordUpdatedAt": 1778094480263
+    }
+  ]
+}
