@@ -1983,12 +1983,20 @@ body[data-theme='nebula'] {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
+  overflow-x: hidden;
   background:
     linear-gradient(135deg, color-mix(in srgb, var(--bg) 88%, #1f2937), var(--bg) 45%, color-mix(in srgb, var(--bg) 82%, #12202e)),
     repeating-linear-gradient(90deg, transparent 0 22px, color-mix(in srgb, var(--border-soft) 26%, transparent) 22px 23px);
+}
+
+#root {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 body::before {
@@ -2005,6 +2013,9 @@ body::before {
 
 .app {
   grid-template-columns: 258px minmax(0, 1fr);
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;
 }
 
 .sidebar {
@@ -2058,13 +2069,15 @@ body::before {
 
 .main {
   min-height: 100vh;
+  width: 100%;
+  max-width: 100%;
   background: transparent;
+  overflow-x: clip;
 }
 
 .topbar {
   top: 12px;
   z-index: 6;
-  width: calc(100% - 28px);
   margin: 12px 14px 0;
   padding: 12px;
   border: 1px solid color-mix(in srgb, var(--border) 78%, transparent);
@@ -2286,7 +2299,6 @@ h1 {
 
   .topbar {
     top: 8px;
-    width: calc(100% - 20px);
     margin: 10px 10px 0;
   }
 }
